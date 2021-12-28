@@ -6,7 +6,7 @@
     import CompParallax from '../components/parallax_comp.svelte';
     import CultosInfo from '../components/home/cultosInfo.svelte';
     import ContactInfo from "../components/home/ContactInfo.svelte";
-  </script>
+</script>
   
   <!-- markup (zero or more items) goes here 'about' -->
   <Navbar/>
@@ -22,7 +22,8 @@
     <CultosInfo/>
     <CompParallax iURL="../images/fondo7.jpg" sHeight=60 sPadding=10 />
     <ContactInfo/>
-    <CompParallax iURL="../images/fondo9.jpg" sHeight=65 sPadding=10 bright=0.1 />
+    <CompParallax iURL="../images/fondo9.jpg" sHeight=75 sPadding=10 bright=0.1 />
+
     <Footer/>
   </main>
   

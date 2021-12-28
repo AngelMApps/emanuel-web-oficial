@@ -4,16 +4,6 @@
 </script>
 
 <footer>
-    <div>
-        <a class="div-number" id="number1" href="tel:+51984135388">
-            <i class="fas fa-phone-alt"/>
-            <h5>984135388</h5>
-        </a>
-        <a class="div-number" id="number2" href="tel:+51954222499">
-            <i class="fas fa-phone-alt"/>
-            <h5>954222499</h5>
-        </a>
-    </div>
     <h4>
         Dios te trajo y nosotros te recibimos con amor
     </h4>
@@ -56,7 +46,7 @@
         color: #fff;
         font-family: "Oswald", Helvetica, sans-serif, Arial, sans-serif;
     }
-    h4,h5{
+    h4{
         font-size: 30px; 
     }
     .fas{
@@ -88,20 +78,25 @@
     @media only screen and (max-width: 888px){
         .div-social{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
-            width: 6%;
-        }
-        h5{
-            font-size: 20px;
+            width: 10%;
         }
     }
-    @media only screen and (max-width: 799px){
+    @media only screen and (max-width: 888px){
         .div-social{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
-            width: 7%;
+            width: 15%;
+        }
+    }
+    @media only screen and (max-width: 800px){
+        .div-social{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 15%;
         }
         h4{
             font-size: 26px;
