@@ -85,10 +85,10 @@
 	a {
 		text-decoration: none;
 		width: 15rem;
-		color: rgb(255, 255, 255);
+		color: rgb(255, 249, 168);
 	}
 	a:hover {
-		color: rgb(247, 255, 174);
+		color: rgb(255, 208, 189);
 	}
 	.accordion-item {
 		background-color: rgba(56, 126, 173, 0.71);

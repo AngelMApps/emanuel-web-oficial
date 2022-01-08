@@ -4,6 +4,10 @@
 	import Navbar from '../../components/Navbar.svelte';
 </script>
 
+<svelte:head>
+	<title>Devocional</title>
+</svelte:head>
+
 <Navbar />
 <main>
 	<div class="container-text">
